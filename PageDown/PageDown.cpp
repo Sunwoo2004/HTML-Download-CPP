@@ -18,7 +18,7 @@ void OnParsingPage(const char * szFileName);
 
 int main()
 {
-    OnPageDownload("https://www.coupang.com/", "test.txt");
+    OnPageDownload("사이트 주소", "test.txt");
     cout << "Download OK" << endl;
 
     Sleep(100);
